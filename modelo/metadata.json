@@ -1,0 +1,101 @@
+{
+  "fecha_entrenamiento": "2026-10-22T19:22:27",
+  "features": [
+    "Annual Income (k$)",
+    "Spending Score (1-100)"
+  ],
+  "k": 5,
+  "k_mejor_silueta": 5,
+  "silueta_modelo": 0.5547,
+  "inercia_modelo": 65.5684,
+  "inercias": {
+    "1": 400.0,
+    "2": 269.691,
+    "3": 157.704,
+    "4": 108.9213,
+    "5": 65.5684,
+    "6": 55.0573,
+    "7": 44.8648,
+    "8": 37.2282,
+    "9": 32.3923,
+    "10": 29.9819
+  },
+  "siluetas": {
+    "2": 0.3213,
+    "3": 0.4666,
+    "4": 0.4939,
+    "5": 0.5547,
+    "6": 0.5399,
+    "7": 0.5281,
+    "8": 0.4552,
+    "9": 0.4571,
+    "10": 0.4432
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "perfil": "Clientes promedio",
+      "estrategia": "Segmento más grande. Promociones por temporada, combos, programa de puntos y venta cruzada para subir el ticket promedio.",
+      "n_clientes": 81,
+      "porcentaje": 40.5,
+      "centroide": {
+        "Annual Income (k$)": 55.3,
+        "Spending Score (1-100)": 49.52
+      },
+      "edad_promedio": 42.7,
+      "pct_mujeres": 59.3
+    },
+    {
+      "cluster": 1,
+      "perfil": "Clientes de alto valor",
+      "estrategia": "Programa VIP y de fidelización: acceso anticipado a colecciones, eventos exclusivos, atención personalizada. Objetivo: retenerlos.",
+      "n_clientes": 39,
+      "porcentaje": 19.5,
+      "centroide": {
+        "Annual Income (k$)": 86.54,
+        "Spending Score (1-100)": 82.13
+      },
+      "edad_promedio": 32.7,
+      "pct_mujeres": 53.8
+    },
+    {
+      "cluster": 2,
+      "perfil": "Clientes impulsivos",
+      "estrategia": "Ingreso bajo y gasto alto (mayoría jóvenes). Redes sociales, tendencias, flash sales y pagos a cuotas, cuidando no sobreendeudarlos. Objetivo: mantener frecuencia.",
+      "n_clientes": 22,
+      "porcentaje": 11.0,
+      "centroide": {
+        "Annual Income (k$)": 25.73,
+        "Spending Score (1-100)": 79.36
+      },
+      "edad_promedio": 25.3,
+      "pct_mujeres": 59.1
+    },
+    {
+      "cluster": 3,
+      "perfil": "Clientes con potencial",
+      "estrategia": "Tienen ingreso alto pero gastan poco. Campañas de calidad/premium, experiencias, beneficios por primera compra en marcas de lujo y comunicación basada en valor (no en descuento). Objetivo: activarlos.",
+      "n_clientes": 35,
+      "porcentaje": 17.5,
+      "centroide": {
+        "Annual Income (k$)": 88.2,
+        "Spending Score (1-100)": 17.11
+      },
+      "edad_promedio": 41.1,
+      "pct_mujeres": 45.7
+    },
+    {
+      "cluster": 4,
+      "perfil": "Clientes de bajo valor",
+      "estrategia": "Ingreso y gasto bajos. Comunicación de bajo costo (email, WhatsApp), descuentos en productos básicos y ofertas de precio. No priorizar inversión publicitaria alta.",
+      "n_clientes": 23,
+      "porcentaje": 11.5,
+      "centroide": {
+        "Annual Income (k$)": 26.3,
+        "Spending Score (1-100)": 20.91
+      },
+      "edad_promedio": 45.2,
+      "pct_mujeres": 60.9
+    }
+  ]
+}
